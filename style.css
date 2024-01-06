@@ -1,0 +1,458 @@
+/* ----------------------------- Header-----------------------------------*/
+/*-- Menu de navegação --*/
+
+
+.caixa1 {
+	background-color: white;
+	width: 0 auto;
+	text-align: right;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 25px;
+	margin-bottom: 35px;
+	margin-top: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 50px;
+}	
+
+.icon-nav {
+	width: 19px;
+	vertical-align: top;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 0.4s;
+}
+
+nav a:hover {
+	font-size: 22px;
+	color: #0885f3;
+}
+
+
+/*-- Caixa logo/slogan --*/
+.caixa2 {
+	background-color: #0d0d0d;
+	width: 0 auto;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;	
+}
+
+header h1 {
+	font-size: 100px;
+	color:white;
+	margin-bottom: 20px;
+	font-family: 'Satisfy', cursive;
+}
+
+
+header p {
+	font-size: 35px;
+	color: white;
+	margin-top: 90px;
+	font-family: 'Nunito', sans-serif;	
+	font-style: bold;
+}
+
+
+/*-- Body main --*/
+main {
+	background-color:#d7d7d7;
+	font-family: 'Nunito', sans-serif;
+}
+
+
+
+/* ----------------------------- HOME-----------------------------------*/
+/*--- Sobre nós ---*/
+.logo-quem-somos {
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+	
+	margin-left: 20%;
+	margin-right: 30px;
+	border-radius: 8px;
+}
+
+.sobre_nos {
+	width: 0 auto;
+	padding-top: 150px;
+	padding-bottom: 160px;
+	text-align: center;
+}
+
+.sobre_nos hr {
+	width: 70%;	
+}
+
+.sobre_nos h2 {
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.sobre_nos p {
+	font-size: 30px;
+	padding-left: 400px;
+	padding-right: 400px;
+	line-height: 45px;
+	text-align: justify;
+}
+
+/*--- nossa história ---*/
+.historia {
+	width: 0 auto;
+	padding-bottom: 150	px;
+	text-align: center;
+}
+
+.historia hr {
+	width: 70%;	
+}
+
+.historia h2 {
+	font-size: 50px;
+	margin-bottom: 45px;
+}
+
+.historia p {
+	font-size: 30px;
+	padding-left: 400px;
+	padding-right: 400px;
+	line-height: 45px;
+	text-align: justify;
+}
+
+
+/*--- Nossos valores ---*/
+.valores{
+	width: 0 auto;
+	padding-bottom: 150px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.valores hr {
+	width: 70%;	
+}
+
+.valores h2 {
+	font-size: 50px;
+	margin-bottom: 45px;
+}
+
+.lista-valores {
+	font-size: 35px;
+	color: white;
+	text-align: center;	
+	padding-bottom: 35px;
+	padding-top: 35px;
+	transition: 0.4s;
+	margin-right: 30px;
+}
+
+section ul li {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+section ul li:hover {
+	font-size: 40px;
+	color:#0885f3;
+	transition: 0.4s;
+}
+
+.borda {
+	border: solid;
+	background-color: #0d0d0d;
+	border-radius: 10%;
+	border-width: 2px;
+	box-sizing: border-box;
+	padding-bottom: 90px;
+	padding-top: 65px;
+	height: 50px;
+	width: 270px;
+}
+
+/*--- feedback ---*/
+.feedback {
+	width: 0 auto;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.feedback h2 {
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.container-slider {
+  display: flex;
+  width: 100%;
+  min-height: 55vh;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 80px;
+}
+
+.container-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.slider {
+  opacity: 0;
+  transition: opacity .2s;
+  position: absolute;
+  width: 100%;
+  border-radius: 15px;
+  border: solid;
+}
+
+.on {
+  opacity: 1;
+}
+
+#prev-button, #next-button {
+  width: 55px;
+  height: 55px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#prev-button:hover {
+	width: 60px;
+	height: 60px;
+}
+
+#next-button:hover {
+	width: 60px;
+	height: 60px;
+}
+
+#prev-button img, #next-button img {
+  width: 100%;
+  height: 100%;
+}
+
+#prev-button {
+  transform: rotate(180deg);
+}
+
+/* ----------------------------- Produtos-----------------------------------*/
+.produtos {
+	width: 0 auto;
+	padding-top: 150px;
+	padding-bottom: 160px;
+	text-align: center;
+}
+
+.produtos h2 {
+	font-size: 50px;
+	margin-bottom: 45px;
+}
+
+.imagem-produtos {
+	width: 85%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10%;
+}
+
+.caixa-produtos {
+	padding-top: 20px;
+	width: 20%;
+	border: solid;
+	border-color: #0d0d0d;
+
+	border-radius: 5%;
+	border-width: 2px;
+	box-sizing: border-box;
+	background-color: #0d0d0d;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.caixa-produtos p {
+	color: white;
+	padding-bottom: 10%;
+	font-size: 30px;
+}
+
+
+.botao-contato {
+	background-color: #0885f3;
+	width: 15%;
+	text-align: center;
+	padding: 25px;
+	border-radius: 15px;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 20px;
+	transition: 0.4s;
+}
+
+.botao {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.botao-contato:hover {
+	transform: scale(1.1);
+	background: #075daa;
+}
+
+
+/* ----------------------------- Contatos-----------------------------------*/
+hr {
+	width:80%;
+	margin-bottom: 80px;
+}
+
+.contatos {
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 160px;
+}
+
+.imagem-insta {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+}
+
+.imagem-telefone {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+}
+
+.imagem-email {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;	
+}
+
+.titulo-contatos {
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+
+/* ----------------------------- Trabalhe conosco-----------------------------------*/
+
+.tr_conosco {
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 160px;
+}
+
+.tr_conosco hr {
+	width: 70%;
+	margin-top: 40px;
+}
+
+.tr_conosco p {
+	font-size: 35px;
+	padding-left: 400px;
+	padding-right: 400px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: justify;
+}
+
+form {
+	margin-top: 100px;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+
+form label, form legend {
+	display:block;
+	font-size: 35px;
+}
+
+.caixa-input {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 55%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+form textarea {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 55%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right:auto;
+	font-size: 20px;
+}
+
+.enviar {
+	width:30%;
+	padding: 20px 0;
+	background: #0885f3;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.enviar:hover {
+	background: #075daa;
+	transform: scale(1.1);
+}
+
+/* ----------------------------- Rodapé-----------------------------------*/
+.logo-rodape {
+	height: 130px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.rodape {
+	width: 0 auto;
+	background-color: #0d0d0d;
+	color: white;
+	text-align: center;
+	padding-top: 140px;
+	padding-bottom: 140px;
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+}
